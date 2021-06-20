@@ -1,0 +1,261 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+ body {
+   overflow-x: hidden !important;
+
+    background-image: -webkit-linear-gradient(178deg, rgb(196, 251, 253), rgb(91, 179, 214));
+  }
+  .bold {
+    font-weight: bolder !important;
+    color: white !important;
+
+  }
+
+  a {
+    color: white !important;
+    font-size: 1.2rem;
+    padding: .8rem !important;
+
+  }
+
+  .dropp a {
+    color: black !important;
+
+  }
+
+  .center {
+    text-align: center;
+    align-items: center;
+  }
+
+  .why {
+    padding-top: 2.6rem;
+
+  }
+
+  .total {
+    display: flex;
+    flex-direction: row;
+    padding-top: 2rem;
+
+  }
+
+  .text {
+
+    padding-left: 7rem;
+    max-width: 70%;
+  }
+
+  /* logo image */
+  .pic img {
+    height: 450px;
+    width: 450px;
+
+  }
+
+  img {
+    border-radius: 18px;
+
+  }
+
+  .ui {
+    display: flex;
+    flex-direction: row;
+    /* padding-left: -2rem !important; */
+
+  }
+
+  ul {
+    padding-top: 2rem !important;
+    list-style: none !important;
+
+  }
+
+  #left {
+    padding-top: .8rem !important;
+    padding-bottom: .8rem !important;
+  }
+
+  .logoImg {
+    position: absolute;
+    top: 2rem;
+    left: 1rem;
+
+  }
+
+  .logoImg img {
+    height: 100px !important;
+    width: 100px !important;
+  }
+
+  /* campus section start */
+  
+
+  .innerGallery {
+    padding-top: 3rem !important;
+    display: flex !important;
+    margin: auto;
+    flex-wrap: wrap !important;
+  }
+
+.complete img{
+  padding-top: 1rem !important;
+  height: 250px !important;
+    width: 250px !important;
+}
+.complete img:hover{
+  border-radius: 25px !important;
+}
+.complete {
+  height: 320px !important;
+    width: 320px !important;
+    background-color: rgb(255, 255, 255);
+    align-items: center !important;
+    text-align: center !important;
+    margin: 2rem !important;
+    border-radius: 18px;
+}
+.complete:hover{
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+  transform: translateY(-20px);
+  color: blue;
+  
+}
+.complete a{
+
+  color: black !important;
+  text-decoration: none !important;
+  font-weight: bolder;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+h4{
+  padding-top: .8rem ;
+}
+/* review section start */
+.myReview{
+  padding-left: 1rem !important; 
+}
+.card{
+  text-align: center !important;
+  align-items: center !important;
+  
+}
+
+.card img{
+  border-radius: 50% !important;
+  height: 100px !important;
+  width:100px !important ;
+}
+
+.card{
+  background-image: -webkit-linear-gradient(#20bf6b,#2d98da);
+  border-radius: 19px;
+  padding: 1.5rem !important;
+  color: white !important;
+}
+.card:hover{
+  background-image: -webkit-linear-gradient(black,rgb(190, 238, 253));
+  /* filter: blur(5px); */
+  
+}
+
+.mainReview:hover .card{
+
+  transform: scale(0.9) !important;
+  opacity: 0.3 !important;
+  
+}
+
+.mainReview .card:hover {
+  
+    opacity: 1 !important;
+    transform: translateY(-30px) !important;
+    
+}
+.card:hover h5{
+  color: black !important;
+}
+
+.mainReview {
+  padding-left: 4rem !important;
+}
+/* Cursor section */
+.cursor1{
+  position: fixed;
+  width: 35px;
+  height: 35px;
+  border: 1px solid black;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  transform: translate(-50%,-50%);
+  transition: .1s;
+}
+
+.cursor2{
+  position: fixed;
+  width: 35px;
+  height: 35px;
+  /* border: 1px solid rgb(0, 34, 128); */
+  background-color: #7bed9f;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  transform: translate(-50%,-50%);
+  transition: .15s;
+}
+
+/* ul li speciality */
+.second{
+  padding-left: 2rem !important;
+}
+.third{
+  padding-left: 7rem !important;
+}
+
+.navbar li a:hover{
+  border: 1px solid black !important;
+  font-weight: bolder;
+  color: black !important;
+  border-radius: 5px;
+  transform: scale(1);
+
+}
+/* about us page realated */
+
+
+.myCard{
+  padding-top: 2rem !important;
+
+}
+.myCard img{
+  height: 300px !important;
+  width: 500px !important;
+  border-radius: 10px !important;
+}
+.texty{
+  padding-left: 13rem !important;
+}
+
+.texty ul li{
+  list-style:square;
+}
+
+.visible{
+  visibility: visible !important;
+}
+
+.notvisible{
+  visibility: hidden !important;
+}

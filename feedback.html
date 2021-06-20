@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
+  <title>MyGuide.com!</title>
+  <link rel="icon" href="Images/sirtm.png">
+</head>
+<style>
+  .card {
+    background: transparent !important;
+    border-radius: 19px;
+    padding: 1.5rem !important;
+    color: white !important;
+    border: none !important;
+  }
+
+  .card img {
+    background-color: white !important;
+    height: 110% !important;
+    width: 100% !important;
+  }
+
+  .card h5 {
+    font-size: 2rem !important;
+    color: black;
+  }
+
+  .card p {
+    padding-top: 1rem !important;
+    padding-left: 1rem !important;
+    font-weight: bold;
+  }
+
+ ::placeholder{
+ font-weight: bolder !important;
+}
+  .card:hover {
+
+    outline: 1px white !important;
+
+  }
+
+  body>div.container>div>div>div.col-md-8>div.wholeFlaticon>div>form>button {
+    width: 100% !important;
+    color: black !important;
+  }
+
+  body>div.container>div>div>div.col-md-8>div.wholeFlaticon>div>form>button:hover {
+    color: white !important;
+    background-color: black !important;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .card img {
+      background-color: white !important;
+      height: 100% !important;
+      width: 100% !important;
+    }
+
+    .card h5 {
+      font-size: 2rem !important;
+      color: black;
+    }
+
+    .card p {
+      padding-top: 1rem !important;
+      padding-left: 1rem !important;
+      font-weight: bold;
+    }
+
+
+  }
+
+
+  .rate {
+    background-image: -webkit-linear-gradient(#000428, #004e92) !important;
+
+  }
+
+
+  section {
+    padding-top: 2rem !important;
+
+    height: 400px;
+    width: 400px;
+  }
+
+
+
+  h1 {
+    font-size: 3rem !important;
+    font-weight: bolder;
+  }
+
+  h2 {
+    font-size: 6rem !important;
+    font-weight: bolder;
+  }
+
+  .paddi {
+    padding-top: 2rem !important;
+  }
+
+  .range {
+
+    width: 400px;
+    height: 30px;
+    position: relative;
+    appearance: none;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 30px;
+    box-shadow: 0 0 0 2px #151515;
+    inset: 0 0 5px #000;
+    overflow: hidden;
+  }
+
+  .range::-webkit-slider-thumb {
+
+    appearance: none;
+    width: 30px;
+    height: 30px;
+    background: #22ff08;
+    cursor: pointer;
+    border: 10 px solid #222;
+    border-radius: 50%;
+    box-shadow: -415px 0 0 400px #000;
+    ;
+  }
+
+
+
+
+  .visible {
+    visibility: visible;
+  }
+
+
+  .notvisible {
+    visibility: hidden;
+  }
+
+  .wholemodel {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .mymodel {
+
+    background-image: -webkit-linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    position: fixed;
+    top: 10rem;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 400px;
+    width: 500px;
+  }
+
+  .mymodel:hover h3 {
+
+    color: white;
+
+  }
+
+  .mymodel:hover button {
+
+    color: white;
+
+  }
+
+  .topmodel button {
+    position: absolute;
+
+    right: 0rem;
+    height: 40px;
+    width: 30px;
+    background: transparent;
+    border: none;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+
+  }
+</style>
+
+<body>
+  <div class="container">
+
+    <nav class="navbar navbar-expand-lg navbar-light  myNavbar" style="background-color: transparent !
+            ;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="first" style="padding-top: 3rem !important;">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="about" href="about">about</a>
+            </li>
+
+
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="contact" href="contact">Contact Us</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="more" href="Gallery">Gallery</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="feedback" href="feedback">Feedback/Query</a>
+            </li>
+
+          </form>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="card mb-3" style="max-width: 100vw; background-color: transparent !important;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="Images/contactBoy.png" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body  wholeText">
+
+            <h5 class="card-title" style="font-weight: bold;"> share your Query / Feedback here </h5>
+            <p class="card-text"> Your opinion , suggestion's are very important for us it help us to improve our
+              services in a efficiant way . You can post your Query here as well we will shortly conatct with you in
+              case if you have any query ..! </p>
+
+          </div>
+          <div class="wholeFlaticon">
+            <div class="flat" style="padding-top: 2rem !important;">
+
+              <form style="max-width: 80% !important;padding-left: 8rem !important;" class="myForm" method="POST"
+                action="/feedback" onsubmit="formSubmit()">
+
+                <div class="mb-3 myplace">
+                  <!-- <label for="exampleFormControlTextarea1" >Write your suggestion's/Quries here</label> -->
+                  <textarea class="form-control center" id="exampleFormControlTextarea1" rows="7"
+                    placeholder="Write your suggestion's/Quries here" name="opinion"></textarea>
+                </div>
+               <button type="submit" id="showbtn" class="btn btn-primary" onsubmit="formSubmit()">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="rate card mb-3">
+         <section>
+        <h1 class="card-title"> Rate our work </h1>
+        <div class="paddi">
+
+          <h2 id="rangeValue">0 </h2>
+
+          <input type="range" class="range" value="0" min="0" max="100" onmousemove="rangeSlider(this.value)"
+            onchange="rangeSlider(this.value)">
+
+        </div>
+      </section>
+    </div>
+
+    <!-- <div class="wholemodel  notvisible" id="wholemodel">
+      <div class="mymodel">
+          <div class="topmodel">
+  
+              <button id="hidebtn">
+                  <h1> &times;</h1>
+              </button>
+          </div>
+          <div class="lowmodel  center" style="max-width: 80%; position: absolute;left: 3rem;top: 8rem;">
+              <h3>Thank you for your feedback / suggestion we will definately gonna contact with yoy as soon as
+                  possible ...</h3>
+          </div>
+      </div>
+  </div> -->
+  </div>
+ 
+
+
+
+
+  <!-- footer section -->
+  <div class="bottom">
+    <footer class="foot center" style="font-weight: bolder; padding: 1.2rem;">
+      Myguide.com copyright &copy 2020-2021 All rights reserved
+    </footer>
+  </div>
+  <div class="cursor1"></div>
+  <div class="cursor2"></div>
+
+  <script>
+    const cursor1 = document.querySelector('.cursor1');
+    const cursor2 = document.querySelector('.cursor2');
+    document.addEventListener('mousemove', e => {
+      cursor1.style.cssText = cursor2.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY + "px;";
+    });
+    function rangeSlider(value) {
+      if (value < 50) {
+        document.getElementById('rangeValue').style.color = "red";
+      }
+
+      else if (value > 50 && value < 75) {
+        document.getElementById('rangeValue').style.color = "orange";
+      }
+
+      else {
+        document.getElementById('rangeValue').style.color = "#22ff08";
+
+      }
+
+
+
+      document.getElementById('rangeValue').innerHTML = value + "%";
+
+    }
+
+    const whole = document.getElementById('wholemodel');
+        const showbtn = document.getElementById('showbtn');
+        const hidebtn = document.getElementById('hidebtn');
+        // showbtn.addEventListener('click', (e) => {
+         
+        //     // whole.classList.remove('notvisible');
+        //     // e.preventDefault();
+
+        // });
+        // hidebtn.addEventListener('click', () => {
+        //     whole.classList.add('notvisible');
+        // });
+
+
+// fn to settimeout
+
+// function settime(){
+
+//   setTimeout(formSubmit(),3000);
+// }
+
+
+function formSubmit(){
+
+ 
+  setTimeout( whole.classList.remove('notvisible'),3000);
+  console.log('form is submitted');
+  
+
+}
+
+
+
+  </script>
+</body>
+
+</html>

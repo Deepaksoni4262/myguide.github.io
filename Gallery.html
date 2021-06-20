@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <title>MyGuide.com!</title>
+    <link rel="icon" href="Images/sirtm.png">
+
+</head>
+<style>
+    .make {
+        background-color: white !important;
+    }
+
+
+    /* preventing color text change on hovering */
+    .card {
+
+        color: black !important;
+
+    }
+
+    .card:hover {
+
+        color: black !important;
+
+    }
+
+    .card img {
+        border-radius: 20px !important;
+        height: 200px !important;
+        width: 300px !important;
+
+    }
+
+  
+
+
+    #placement img{
+
+        border-radius: 0px !important;
+        height: 100px !important;
+        width: 150px !important;
+       
+
+
+    }
+
+    #placement .complete{
+        background-color: transparent !important;
+        height: 100px !important;
+        width: 150px !important;
+
+    }
+
+
+/* tackling backgroun of events cards */
+    #event .complete{
+        background-color: rgb(93, 187, 159) !important;
+
+    }
+
+
+
+    /* tackling backgroun of facility cards */
+    #facility .complete{
+        /* background-color: rgb(93, 187, 159) !important; */
+        background-image: -webkit-linear-gradient(#42275a , #734b6d);
+
+    }
+
+    #facility .complete:hover h4{
+        color: white !important;
+    }
+
+
+
+    /* tackling backgroun of awards cards */
+    #award .complete{
+        background-image: -webkit-linear-gradient(#5d4954,#ffa69e
+);
+
+    }
+
+
+
+    /* tackling backgroun of headline cards */
+    #headline .complete{
+        background-color: rgb(41, 41, 44) !important;
+
+    }
+</style>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light  myNavbar" style="background-color: transparent !
+            ;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="first" style="padding-top: 3rem !important;">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="about">about</a>
+                        </li>
+
+
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="contact">Contact Us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="Gallery">Gallery</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="feedback">Feedback/Query</a>
+                        </li>
+
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="row    " style="background-color: transparent !important;">
+            
+
+            <div class="col myCol col-lg-4 col-md-6 col-sm-12">
+                <div class="complete">
+                    <img src="Images/boy.png" alt="">
+                    <a href="#event">
+                        <h4 >EVENT's</h4>
+                    </a>
+                </div>
+            </div>
+            <div class="col myCol col-lg-4 col-md-6 col-sm-12 " style="max-width:auto !important;">
+                <div class="complete">
+                    <img src="Images/onBooks.png" alt="">
+                    <a href="#facility">
+                        <h4>FACILITIE' s</h4>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col myCol col-lg-4 col-md-6 col-sm-12">
+                <div class="complete">
+                    <img src="Images/awards.png" alt="">
+                    <a href="#award">
+                        <h4>AWARD's</h4>
+
+                    </a>
+                </div>
+            </div>
+
+            <div class="row" style="max-width: 93% !important; margin: 2rem !important; ">
+                <div class="col-sm-6 " style="height: 500px !important;">
+                    <div class="card">
+                        <div class="card-body make">
+
+                            <div class="">
+                                <img src="Images/h1.jpg" alt="">
+                                <a href="#headline">
+                                    <h4 style="color: black;">IN HEADLINE's</h4>
+                                </a>
+                                <p class="card-text">SIRT is always got the frame on front-page of news paper mazgine etc</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-6 " style="height: 500px !important;">
+                    <div class="card">
+                        <div class="card-body make">
+
+                            <div class="">
+                                <img src="Images/job.png" alt="">
+                                <a href="#placement">
+                                    <h4 style="color: black;">PLACEMENT's</h4>
+                                </a>
+
+                                <p class="card-text">Tie-up with more than 100 of compaines including AMAZON , TCS</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+<hr>
+
+
+
+            <div class="row    " style="background-color: teal !important;" id="event">
+                <div class="mainHead">
+                    <h1 class="center " style="padding-top: 2rem !important; font-weight: bolder; font-size: 3rem;">
+                        EVENT'S IN SIRT </h1>
+                </div>
+
+                <div class="col myCol col-lg-4 col-md-6 col-sm-12">
+                    <div class="complete">
+                        <img src="Images/seminar2.jpg" alt="">
+                        
+                            <h4 >Orientation</h4>
+                        
+                    </div>
+                </div>
+                <div class="col myCol col-lg-4 col-md-6 col-sm-12 " style="max-width:auto !important;">
+                    <div class="complete">
+                        <img src="Images/hackathon.jpg" alt="">
+                      
+                            <h4>Hackathon</h4>
+                     
+                    </div>
+                </div>
+
+                <div class="col myCol col-lg-4 col-md-6 col-sm-12">
+                    <div class="complete">
+                        <img src="Images/seminar.jpg" alt="">
+                  
+                            <h4>Seminar's</h4>
+
+                    </div>
+                </div>
+
+
+                <div class="col myCol col-lg-4 col-md-6 col-sm-12">
+                    <div class="complete">
+                        <img src="Images/saga.jpg" alt="">
+                    
+                            <h4 >Technosaga</h4>
+                        
+                    </div>
+                </div>
+
+                <div class="col myCol col-lg-4 col-md-6 col-sm-12">
+                    <div class="complete">
+                        <img src="Images/republic.jpeg" alt="">
+                    
+                            <h4 >Republic Day</h4>
+                        
+                    </div>
+                </div>
+
+                <div class="col myCol col-lg-4 col-md-6 col-sm-12">
+                    <div class="complete">
+                        <img src="Images/cm.jpg" alt="">
+                        
+                            <h4 >CM visit</h4>
+                      
+                    </div>
+                </div>
+
+            </div>
+<hr>
+<div class="row    " style="background-color: transparent !important;" id="facility">
+    <div class="mainHead">
+        <h1 class="center " style="padding-top: 2rem !important; font-weight: bolder; font-size: 3rem;">
+            FACILITIE's </h1>
+    </div>
+
+    <div class="col myCol col-lg-4 col-md-6 col-sm-12">
+        <div class="complete">
+            <img src="Images/infra.jpg" alt="">
+            
+                <h4 >Best Infrastructure</h4>
+            
+        </div>
+    </div>
+    <div class="col myCol col-lg-4 col-md-6 col-sm-12 " style="max-width:auto !important;">
+        <div class="complete">
+            <img src="Images/sportClub.jpg" alt="">
+           
+                <h4>Sport's-Club</h4>
+            
+        </div>
+    </div>
+
+    <div class="col myCol col-lg-4 col-md-6 col-sm-12">
+        <div class="complete">
+            <img src="Images/cafe.jpg" alt="">
+           
+                <h4> Hygine Cafeteria</h4>
+
+          
+        </div>
+    </div>
+
+    <div class="col myCol col-lg-4 col-md-6 col-sm-12">
+        <div class="complete">
+            <img src="Images/bus.png" alt="">
+           
+                <h4>Bus Services</h4>
+
+          
+        </div>
+    </div>
+
+    <div class="col myCol col-lg-4 col-md-6 col-sm-12">
+        <div class="complete">
+            <img src="Images/labby.png" alt="">
+           
+                <h4>Hightech labs </h4>
+
+          
+        </div>
+    </div>
+
+    <div class="col myCol col-lg-4 col-md-6 col-sm-12">
+        <div class="complete">
+            <img src="Images/hostel.png" alt="">
+           
+                <h4> Hostel </h4>
+
+          
+        </div>
+    </div>
+</div>
+
+
+<hr>
+
+<div class="row    " style="background-color: paleturquoise !important;" id="award">
+    <div class="mainHead">
+        <h1 class="center " style="padding-top: 2rem !important; font-weight: bolder; font-size: 3rem;">
+            AWARD's </h1>
+    </div>
+
+    <div class="col myCol col-lg-4 col-md-6 col-sm-12">
+        <div class="complete">
+            <img src="Images/aw5.jpg" alt="">
+            
+        </div>
+    </div>
+    <div class="col myCol col-lg-4 col-md-6 col-sm-12 " style="max-width:auto !important;">
+        <div class="complete">
+            <img src="Images/aw6.jpg" alt="">
+            
+        </div>
+    </div>
+
+    <div class="col myCol col-lg-4 col-md-6 col-sm-12">
+        <div class="complete">
+            <img src="Images/aw1.jpg" alt="">
+          
+        </div>
+    </div>
+
+
+    <div class="col myCol col-lg-4 col-md-6 col-sm-12">
+        <div class="complete">
+            <img src="Images/aw2.jpg" alt="">
+           
+        </div>
+    </div>
+
+    <div class="col myCol col-lg-4 col-md-6 col-sm-12">
+        <div class="complete">
+            <img src="Images/aw3.jpg" alt="">
+            
+        </div>
+    </div>
+
+    <div class="col myCol col-lg-4 col-md-6 col-sm-12">
+        <div class="complete">
+            <img src="Images/aw4.jpg" alt="">
+            
+        </div>
+    </div>
+
+</div>
+
+<hr>
+
+<div class="row    " style="background-color: rgb(140, 183, 240) !important;" id="headline">
+    <div class="mainHead">
+        <h1 class="center " style="padding-top: 2rem !important; font-weight: bolder; font-size: 3rem;">
+            SIRT ON FRONT-PAGE ✌</h1>
+    </div>
+
+    <div class="col myCol col-lg-4 col-md-6 col-sm-12">
+        <div class="complete">
+            <img src="Images/h1.jpg" alt="">
+           
+        </div>
+    </div>
+    <div class="col myCol col-lg-4 col-md-6 col-sm-12 " style="max-width:auto !important;">
+        <div class="complete">
+            <img src="Images/h2.jpg" alt="">
+            
+        </div>
+    </div>
+
+    <div class="col myCol col-lg-4 col-md-6 col-sm-12">
+        <div class="complete">
+            <img src="Images/h8.jpg" alt="">
+            
+        </div>
+    </div>
+
+
+    <div class="col myCol col-lg-4 col-md-6 col-sm-12">
+        <div class="complete">
+            <img src="Images/h4.jpg" alt="">
+           
+        </div>
+    </div>
+
+    <div class="col myCol col-lg-4 col-md-6 col-sm-12">
+        <div class="complete">
+            <img src="Images/h5.jpg" alt="">
+           
+        </div>
+    </div>
+
+    <div class="col myCol col-lg-4 col-md-6 col-sm-12">
+        <div class="complete">
+            <img src="Images/h6.jpg" alt="">
+           
+        </div>
+    </div>
+
+</div>
+<hr>
+
+<div class="row    " style="background-color: transparent !important;" id="placement">
+    <div class="mainHead">
+        <h1 class="center " style="padding-top: 2rem !important; font-weight: bolder; font-size: 3rem;">
+            Tie-Up With SIRT</h1>
+    </div>
+
+    <div class="col myCol col-lg-2 col-md-3 col-sm-6">
+        <div class="complete">
+            <img src="Images/p24.jpg" alt="">
+            
+        </div>
+    </div>
+    <div class="col myCol col-lg-2 col-md-3 col-sm-6 " style="max-width:auto !important;">
+        <div class="complete">
+            <img src="Images/p23.jpg" alt="">
+           
+        </div>
+    </div>
+
+    <div class="col myCol  col-lg-2 col-md-3 col-sm-6">
+        <div class="complete">
+            <img src="Images/p22.jpg" alt="">
+            
+        </div>
+    </div>
+
+
+    <div class="col myCol  col-lg-2 col-md-3 col-sm-6">
+        <div class="complete">
+            <img src="Images/p21.png" alt="">
+            
+        </div>
+    </div>
+
+    <div class="col myCol  col-lg-2 col-md-3 col-sm-6">
+        <div class="complete">
+            <img src="Images/p20.jpg" alt="">
+            
+        </div>
+    </div>
+
+    <div class="col myCol  col-lg-2 col-md-3 col-sm-6">
+        <div class="complete">
+            <img src="Images/p19.jpg" alt="">
+            
+        </div>
+    </div>
+
+    <div class="col myCol col-lg-2 col-md-3 col-sm-6">
+        <div class="complete">
+            <img src="Images/p18.jpg" alt="">
+           
+        </div>
+    </div>
+
+    <div class="col myCol col-lg-2 col-md-3 col-sm-6">
+        <div class="complete">
+            <img src="Images/p17.jpg" alt="">
+           
+        </div>
+    </div>
+
+    <div class="col myCol col-lg-2 col-md-3 col-sm-6">
+        <div class="complete">
+            <img src="Images/p16.jpg" alt="">
+            
+        </div>
+    </div>
+
+    <div class="col myCol col-lg-2 col-md-3 col-sm-6">
+        <div class="complete">
+            <img src="Images/p15.jpg" alt="">
+            
+        </div>
+    </div>
+
+    <div class="col myCol col-lg-2 col-md-3 col-sm-6">
+        <div class="complete">
+            <img src="Images/p14.jpg" alt="">
+            
+        </div>
+    </div>
+
+    <div class="col myCol col-lg-2 col-md-3 col-sm-6">
+        <div class="complete">
+            <img src="Images/p13.jpg" alt="">
+           
+        </div>
+    </div>
+
+    <div class="col myCol col-lg-2 col-md-3 col-sm-6">
+        <div class="complete">
+            <img src="Images/p12.jpg" alt="">
+            
+        </div>
+    </div>
+
+    <div class="col myCol col-lg-2 col-md-3 col-sm-6">
+        <div class="complete">
+            <img src="Images/p11.jpg" alt="">
+        
+        </div>
+    </div>
+
+    <div class="col myCol col-lg-2 col-md-3 col-sm-6">
+        <div class="complete">
+            <img src="Images/p10.jpg" alt="">
+           
+        </div>
+    </div>
+
+    <div class="col myCol col-lg-2 col-md-3 col-sm-6">
+        <div class="complete">
+            <img src="Images/p9.jpg" alt="">
+           
+        </div>
+    </div>
+
+    <div class="col myCol col-lg-2 col-md-3 col-sm-6">
+        <div class="complete">
+            <img src="Images/p8.jpg" alt="">
+           
+        </div>
+    </div>
+
+    <div class="col myCol col-lg-2 col-md-3 col-sm-6">
+        <div class="complete">
+            <img src="Images/p7.jpg" alt="">
+           
+        </div>
+    </div>
+
+    <div class="col myCol col-lg-2 col-md-3 col-sm-6">
+        <div class="complete">
+            <img src="Images/p6.jpg" alt="">
+          
+        </div>
+    </div>
+
+    <div class="col myCol col-lg-2 col-md-3 col-sm-6">
+        <div class="complete">
+            <img src="Images/p5.jpg" alt="">
+           
+        </div>
+    </div>
+
+    <div class="col myCol col-lg-2 col-md-3 col-sm-6">
+        <div class="complete">
+            <img src="Images/p4.jpg" alt="">
+          
+        </div>
+    </div><div class="col myCol col-lg-2 col-md-3 col-sm-6">
+        <div class="complete">
+            <img src="Images/p3.jpg" alt="">
+            
+        </div>
+    </div>
+    <div class="col myCol col-lg-2 col-md-3 col-sm-6">
+        <div class="complete">
+            <img src="Images/p2.jpg" alt="">
+           
+        </div>
+    </div>
+    <div class="col myCol col-lg-2 col-md-3 col-sm-6">
+        <div class="complete">
+            <img src="Images/p1.jpg" alt="">
+            
+        </div>
+    </div>
+   
+
+</div>
+        </div>
+
+
+        <!-- footer section -->
+        <div class="bottom">
+            <footer class="foot center" style="font-weight: bolder; padding: 1.2rem;">
+                Myguide.com copyright &copy 2020-2021 All rights reserved
+            </footer>
+        </div>
+        <div class="cursor1"></div>
+        <div class="cursor2"></div>
+
+        <script>
+            const cursor1 = document.querySelector('.cursor1');
+            const cursor2 = document.querySelector('.cursor2');
+            document.addEventListener('mousemove', e => {
+                cursor1.style.cssText = cursor2.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY + "px;";
+            });
+        </script>
+</body>
+
+</html>
